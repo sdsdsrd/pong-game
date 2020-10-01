@@ -1,0 +1,11 @@
+--cpu Cortex-M4.fp
+".\startup_stm32f40_41xxx.o"
+".\system_stm32f4xx.o"
+".\main.o"
+".\glcd_16bitif_stm32f4xx.o"
+".\i2c_stm32f4xx.o"
+".\joy.o"
+".\gamemain.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lab.map" -o .\Lab.axf

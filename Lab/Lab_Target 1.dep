@@ -1,0 +1,61 @@
+Dependencies for Project 'Lab', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x532BE50A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx--list .\startup_stm32f40_41xxx.lst --xref -o .\startup_stm32f40_41xxx.o --depend .\startup_stm32f40_41xxx.d)
+F (.\system_stm32f4xx.c)(0x532BE64E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\system_stm32f4xx.o --omf_browse .\system_stm32f4xx.crf --depend .\system_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+F (.\main.c)(0x5BFFC308)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (GLCD.h)(0x54643CE2)
+I (I2C.h)(0x546446EA)
+I (JOY.h)(0x546445F6)
+F (.\GLCD_16bitIF_STM32F4xx.c)(0x5BFF7800)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\glcd_16bitif_stm32f4xx.o --omf_browse .\glcd_16bitif_stm32f4xx.crf --depend .\glcd_16bitif_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (GLCD.h)(0x54643CE2)
+I (Font_6x8_h.h)(0x54643CE2)
+I (Font_16x24_h.h)(0x54643CE2)
+F (.\I2C_STM32F4xx.c)(0x546446EA)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\i2c_stm32f4xx.o --omf_browse .\i2c_stm32f4xx.crf --depend .\i2c_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (I2C.h)(0x546446EA)
+F (.\JOY.c)(0x546445F6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\joy.o --omf_browse .\joy.crf --depend .\joy.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (JOY.h)(0x546445F6)
+I (I2C.h)(0x546446EA)
+F (.\gamemain.c)(0x5C008BBC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\gamemain.o --omf_browse .\gamemain.crf --depend .\gamemain.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (GLCD.h)(0x54643CE2)
+I (JOY.h)(0x546445F6)
